@@ -44,8 +44,20 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: https://github.com/fastapi/fastapi
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: https://andrehora.github.io/testminer/#fastapi/fastapi
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: A prática de teste que escolhi analisar foi a organização dos testes e a configuração do ambiente de testes.
+
+O FastAPI mantém seus testes em um diretório chamado tests/, separado do diretório principal fastapi/, que contém o código da biblioteca. Além disso, o projeto utiliza o pytest e configura opções rigorosas para a execução dos testes no arquivo pyproject.toml.
+
+Essa organização é importante porque facilita a localização, a manutenção e a compreensão dos testes. Já configurações como a validação estrita de marcadores e de opções do pytest ajudam a identificar configurações incorretas, enquanto tratar avisos como erros pode revelar problemas que passariam despercebidos durante a execução.
+
+O TestMiner permite explorar essas práticas por meio das seções de visão geral, localização dos testes, histórico e dependências. Assim, é possível compreender melhor como um projeto real organiza e mantém sua estratégia de testes.
+
+<img width="937" height="456" alt="image" src="https://github.com/user-attachments/assets/51dbb1dc-49b0-44cc-a7ab-7dc6670b7989" />
+<img width="973" height="812" alt="image" src="https://github.com/user-attachments/assets/b3ac4c04-731c-460d-8e4b-0ef1eafa8edb" />
+<img width="943" height="192" alt="image" src="https://github.com/user-attachments/assets/a9aa8a2b-caf3-4b20-8fe6-11a39c01da9c" />
+
+Concluo que uma boa prática de teste não consiste apenas em escrever vários testes, mas também em organizá-los adequadamente e configurar sua execução para detectar possíveis problemas. A quantidade de testes, isoladamente, não garante que o sistema esteja livre de defeitos.
